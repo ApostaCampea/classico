@@ -168,6 +168,14 @@ h2{
   font-weight: 900;
   
 }
+.valor{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: red;
+  background: white;
+  top: 1vw;
+}
 .regras{
   position: absolute;
   width: 100%;
@@ -175,14 +183,14 @@ h2{
   color: gold;
   ackground: white;
   z-index: 1;
-  
+  margin-top: 3vw;
 }
 .p-regras{
-  ackground: white;
+  ackground: whitesmoke;
   width: 90vw;
-  height: 60vw;
+  height: 58vw;
   position: absolute;
-  top: 12vw;
+  top: 15vw;
   margin: 2vw;
   font-size: 4vw;
   font-family: 'roboto';
@@ -233,4 +241,11 @@ h2{
   background: green;
   width: 100%;
   height: 15vw;
+}
+
+/* apostas */
+
+#n13{
+  background: gold;
+  color: white;
 }
