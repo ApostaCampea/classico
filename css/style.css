@@ -321,6 +321,665 @@ h2{
 #num32{
   background: gold;
 }
+#num13{
+  background: gold;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: sans-serif;
+}
 
+.cabecalho{
+  background: gold;
+  width: 96vw;
+  height: 50vw;
+  border-radius: 3vw;
+  margin: 2vw auto;
+  position: relative;
+}
+h1{
+  position: absolute;
+  width: 50vw;
+  color: white;
+  margin: 17vw 3vw;
+  text-align: ;
+  padding-left: vw;
+  background: -webkit-linear-gradient(green, forestgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ackground: rgba(0,0,0,.2);
+  
+}
+.logo{
+  background: white;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+  border: .8vw solid green;
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+.imgheader{
+  border-radius: 0 3vw 3vw 0;
+  width: 57%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  display: non;
+  right: 0;
+}
+.imgtime{
+  background: lightgrey;
+  width: 90%;
+  height: 94%;
+  margin: 1.5vw;
+  bject-fit: cover;
+  border-radius: 2vw;
+  object-position: center;
+}
+.p-empate{
+  ackground: yellow;
+  color: red;
+  text-align: center;
+  position: relative;
+  top: -13vw;
+  font-weight: 900;
+}
+.corpo{
+  background: gold;
+  width: 96vw;
+  height: 252vw;
+  border-radius: 3vw;
+  margin: auto;
+  margin-bottom: 2vw;
+  adding-top: 20vw;
+  position: relative;
+}
+.anuncio{
+  background: white;
+  width: 94vw;
+  height: 100vw;
+  border-radius: 3vw;
+  position: relative;
+  margin: auto;
+  top: 2vw;
+}
+.imganuncio{
+  width: 100%;
+  height: 100%;
+  border-radius: 3vw;
+}
+.duplas{
+  background: re;
+  width: 96vw;
+  height: 52vw;
+  margin-top: 4vw;
+}
+h2{
+  background: black;
+  width: 90vw;
+  height: 15vw;
+  border-radius: 2vw;
+  position: relative;
+  margin: auto;
+  top: 2vw;
+  line-height: 10vw;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+ }
+ .datasort{
+   font-size: 4vw;
+   position: relative;
+   top: -4vw;
+   color: green;
+ }
+.card{
+  background: white;
+  width: 94vw;
+  height: 110vw;
+  border-radius: 3vw;
+  margin: 2vw auto;
+  position: relative;
+  position: absolute;
+  left: -100vw;
+  top: 20vw;
+  z-index: 9;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.times{
+  background: white;
+  width: 30vw;
+  height: 46vw;
+  float: left;
+  margin: 1vw;
+  margin-top: 3vw;
+  border-radius: 3vw;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
 
+#card1{
+  background: forestgreen;
+}
+#card2{
+  background: forestgreen;
+}
+#card3{
+  background: forestgreen;
+}
+
+.button{
+  position: absolute;
+  right: 2vw;
+  top: 2vw;
+  background: whitesmoke;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 2vw;
+  order: solid limegreen .5vw;
+}
+.expli{
+  background: green;
+  width: 94vw;
+  height: 78vw;
+  margin: auto;
+  border-radius: 3vw;
+  position: relative;
+  font-family: 'roboto';
+  font-weight: 900;
+  
+}
+.valor{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: red;
+  background: white;
+  top: 1vw;
+}
+.regras{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: gold;
+  ackground: white;
+  z-index: 1;
+  margin-top: 3vw;
+}
+.p-regras{
+  ackground: whitesmoke;
+  width: 90vw;
+  height: 58vw;
+  position: absolute;
+  top: 15vw;
+  margin: 2vw;
+  font-size: 4vw;
+  font-family: 'roboto';
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+.premio{
+  background: gold;
+  color: black;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin: 3vw;
+  position: absolute;
+  font-size: 5vw;
+  top: -1vw;
+  left: -1vw;
+  font-family: 'courier';
+  font-weight: 900;
+}
+.apostalink{
+  color: black;
+  text-decoration: none;
+}
+.apostalink:hover{
+  color: white;
+}
+.num{
+  background: white;
+  width: 9.4vw;
+  height: 9vw;
+  float: left;
+  position: relative;
+  top: 12vw;
+  text-align: center;
+  line-height: 9vw;
+  font-weight: 700;
+}
+.num:hover{
+  background: gold;
+  color: white;
+}
+#num{
+  background: limegreen;
+  color: white;
+}
+.rodape{
+  background: green;
+  width: 100%;
+  height: 15vw;
+}
+
+/* apostas */
+
+#n13{
+  background: gold;
+  color: white;
+}
+#num1{
+  background: gold;
+}
+#num2{
+  background: gold;
+}
+#num3{
+  background: gold;
+}
+#num4{
+  background: gold;
+}
+#num5{
+  background: gold;
+}
+#n14{
+  background: gold;
+}
+#nu23{
+  background: gold;
+}
+#n42{
+  background: gold;
+}
+#num36{
+  background: gold;
+}
+#nu36{
+  background: gold;
+}
+#n36{
+  background: gold;
+}
+#n87{
+  background: gold;
+}
+#num7{
+  background: gold;
+}
+#nu7{
+  background: gold;
+}
+#num47{
+  background: gold;
+}
+#num24{
+  background: gold;
+}
+#nu13{
+  background: gold;
+}
+#n7{
+  background: gold;
+}
+#n17 {
+  background: gold;
+}
+#n27{
+  background: gold;
+}
+#n37 {
+  background: gold;
+}
+#num10{
+  background: gold;
+}
+#num30{
+  background: gold;
+}
+#num32{
+  background: gold;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: sans-serif;
+}
+
+.cabecalho{
+  background: gold;
+  width: 96vw;
+  height: 50vw;
+  border-radius: 3vw;
+  margin: 2vw auto;
+  position: relative;
+}
+h1{
+  position: absolute;
+  width: 50vw;
+  color: white;
+  margin: 17vw 3vw;
+  text-align: ;
+  padding-left: vw;
+  background: -webkit-linear-gradient(green, forestgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  ackground: rgba(0,0,0,.2);
+  
+}
+.logo{
+  background: white;
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+  border: .8vw solid green;
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+.imgheader{
+  border-radius: 0 3vw 3vw 0;
+  width: 57%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  display: non;
+  right: 0;
+}
+.imgtime{
+  background: lightgrey;
+  width: 90%;
+  height: 94%;
+  margin: 1.5vw;
+  bject-fit: cover;
+  border-radius: 2vw;
+  object-position: center;
+}
+.p-empate{
+  ackground: yellow;
+  color: red;
+  text-align: center;
+  position: relative;
+  top: -13vw;
+  font-weight: 900;
+}
+.corpo{
+  background: gold;
+  width: 96vw;
+  height: 252vw;
+  border-radius: 3vw;
+  margin: auto;
+  margin-bottom: 2vw;
+  adding-top: 20vw;
+  position: relative;
+}
+.anuncio{
+  background: white;
+  width: 94vw;
+  height: 100vw;
+  border-radius: 3vw;
+  position: relative;
+  margin: auto;
+  top: 2vw;
+}
+.imganuncio{
+  width: 100%;
+  height: 100%;
+  border-radius: 3vw;
+}
+.duplas{
+  background: re;
+  width: 96vw;
+  height: 52vw;
+  margin-top: 4vw;
+}
+h2{
+  background: black;
+  width: 90vw;
+  height: 15vw;
+  border-radius: 2vw;
+  position: relative;
+  margin: auto;
+  top: 2vw;
+  line-height: 10vw;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+ }
+ .datasort{
+   font-size: 4vw;
+   position: relative;
+   top: -4vw;
+   color: green;
+ }
+.card{
+  background: white;
+  width: 94vw;
+  height: 110vw;
+  border-radius: 3vw;
+  margin: 2vw auto;
+  position: relative;
+  position: absolute;
+  left: -100vw;
+  top: 20vw;
+  z-index: 9;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.times{
+  background: white;
+  width: 30vw;
+  height: 46vw;
+  float: left;
+  margin: 1vw;
+  margin-top: 3vw;
+  border-radius: 3vw;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+
+#card1{
+  background: forestgreen;
+}
+#card2{
+  background: forestgreen;
+}
+#card3{
+  background: forestgreen;
+}
+
+.button{
+  position: absolute;
+  right: 2vw;
+  top: 2vw;
+  background: whitesmoke;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 2vw;
+  order: solid limegreen .5vw;
+}
+.expli{
+  background: green;
+  width: 94vw;
+  height: 78vw;
+  margin: auto;
+  border-radius: 3vw;
+  position: relative;
+  font-family: 'roboto';
+  font-weight: 900;
+  
+}
+.valor{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: red;
+  background: white;
+  top: 1vw;
+}
+.regras{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: gold;
+  ackground: white;
+  z-index: 1;
+  margin-top: 3vw;
+}
+.p-regras{
+  ackground: whitesmoke;
+  width: 90vw;
+  height: 58vw;
+  position: absolute;
+  top: 15vw;
+  margin: 2vw;
+  font-size: 4vw;
+  font-family: 'roboto';
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+.premio{
+  background: gold;
+  color: black;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin: 3vw;
+  position: absolute;
+  font-size: 5vw;
+  top: -1vw;
+  left: -1vw;
+  font-family: 'courier';
+  font-weight: 900;
+}
+.apostalink{
+  color: black;
+  text-decoration: none;
+}
+.apostalink:hover{
+  color: white;
+}
+.num{
+  background: white;
+  width: 9.4vw;
+  height: 9vw;
+  float: left;
+  position: relative;
+  top: 12vw;
+  text-align: center;
+  line-height: 9vw;
+  font-weight: 700;
+}
+.num:hover{
+  background: gold;
+  color: white;
+}
+#num{
+  background: limegreen;
+  color: white;
+}
+.rodape{
+  background: green;
+  width: 100%;
+  height: 15vw;
+}
+
+/* apostas */
+
+#n13{
+  background: gold;
+  color: white;
+}
+#num1{
+  background: gold;
+}
+#num2{
+  background: gold;
+}
+#num3{
+  background: gold;
+}
+#num4{
+  background: gold;
+}
+#num5{
+  background: gold;
+}
+#n14{
+  background: gold;
+}
+#nu23{
+  background: gold;
+}
+#n42{
+  background: gold;
+}
+#num36{
+  background: gold;
+}
+#nu36{
+  background: gold;
+}
+#n36{
+  background: gold;
+}
+#n87{
+  background: gold;
+}
+#num7{
+  background: gold;
+}
+#nu7{
+  background: gold;
+}
+#num47{
+  background: gold;
+}
+#num24{
+  background: gold;
+}
+#nu13{
+  background: gold;
+}
+#n7{
+  background: gold;
+}
+#n17 {
+  background: gold;
+}
+#n27{
+  background: gold;
+}
+#n37 {
+  background: gold;
+}
+#num10{
+  background: gold;
+}
+#num30{
+  background: gold;
+}
+#num32{
+  background: gold;
+}
+
+#num13{
+  background: gold;
+}
+#nu15{
+  background: gold;
+}
+
+#n23{
+  background: gold;
+}
 
